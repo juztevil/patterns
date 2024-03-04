@@ -3,6 +3,7 @@ class numberTriangular{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheNumberTriangular(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheNumberTriangular(int n){
 		for(int i=0;i<n;++i){

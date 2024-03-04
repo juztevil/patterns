@@ -3,6 +3,7 @@ class invertedLeftHalfPyramid{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printThePyramid(scan.nextInt());
+		scan.close();
 	}
 	public static void printThePyramid(int n){
 		for(int i=0;i<n;++i){

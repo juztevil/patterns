@@ -4,6 +4,7 @@ class fullPyramid{
 		Scanner scan=new Scanner(System.in);
 		System.out.print("Enter the number: ");
 		printThePyramid(scan.nextInt());
+		scan.close();
 	}
 	public static void printThePyramid(int n){
 		int stars=1;					//three for loops

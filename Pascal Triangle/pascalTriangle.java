@@ -3,6 +3,7 @@ class pascalTriangle{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printThePascalTriangle(scan.nextInt());
+		scan.close();
 	}
 	public static void printThePascalTriangle(int n){
 		ArrayList<Integer> li=new ArrayList<Integer>();

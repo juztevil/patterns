@@ -3,6 +3,7 @@ class hollowSquare{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheHollowSquare(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheHollowSquare(int n){
 		for(int i=0;i<n;++i){

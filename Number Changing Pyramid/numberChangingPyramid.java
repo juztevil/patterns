@@ -3,6 +3,7 @@ class numberChangingPyramid{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheNumberChangingPyramid(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheNumberChangingPyramid(int n){
 		int start=0;

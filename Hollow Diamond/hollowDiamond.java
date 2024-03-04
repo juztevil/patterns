@@ -3,6 +3,7 @@ class hollowDiamond{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheHollowDiamond(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheHollowDiamond(int n){
 		int stars=1;

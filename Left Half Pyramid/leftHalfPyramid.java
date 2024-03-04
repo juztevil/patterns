@@ -4,6 +4,7 @@ class leftHalfPyramid{
 		Scanner scan=new Scanner(System.in);
 		System.out.print("Enter the number: ");
 		printThePyramid(scan.nextInt());
+		scan.close();
 	}
 	public static void printThePyramid(int n){
 		for(int i=0;i<n;++i){

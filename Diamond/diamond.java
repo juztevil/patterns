@@ -3,6 +3,7 @@ class diamond{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheFirstHalfDiamond(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheFirstHalfDiamond(int n){
 		int stars=1;

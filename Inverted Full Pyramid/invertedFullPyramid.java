@@ -3,6 +3,7 @@ class invertedFullPyramid{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printThePyramid(scan.nextInt());
+		scan.close();
 	}
 	public static void printThePyramid(int n){
 		int stars=n+(n-1);

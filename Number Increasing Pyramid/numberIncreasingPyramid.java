@@ -3,6 +3,7 @@ class numberIncreasingPyramid{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printThenumberIncreasingPyramid(scan.nextInt());
+		scan.close();
 	}
 	public static void printThenumberIncreasingPyramid(int n){
 		for(int i=0;i<n;++i){

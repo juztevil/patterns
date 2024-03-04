@@ -3,6 +3,7 @@ class numberIncreasingReversePyramid{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheNumberIncreasingReversePyramid(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheNumberIncreasingReversePyramid(int n){
 		for(int i=0;i<n;++i){

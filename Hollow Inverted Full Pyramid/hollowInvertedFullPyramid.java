@@ -3,6 +3,7 @@ class hollowInvertedFullPyramid{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheHollowPyramid(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheHollowPyramid(int n){
 		int stars=n+(n-1);

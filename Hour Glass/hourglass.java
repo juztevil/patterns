@@ -3,6 +3,7 @@ class hourglass{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheUpperHourGlass(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheUpperHourGlass(int n){
 		int stars=n+(n-1);

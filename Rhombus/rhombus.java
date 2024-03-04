@@ -3,6 +3,7 @@ class rhombus{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheRhombus(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheRhombus(int n){
 		for(int i=0;i<n;++i){

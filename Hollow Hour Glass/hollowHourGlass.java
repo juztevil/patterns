@@ -3,6 +3,7 @@ class hollowHourGlass{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		printTheHollowHourGlass(scan.nextInt());
+		scan.close();
 	}
 	public static void printTheHollowHourGlass(int n){
 		int stars=n+(n-1);
