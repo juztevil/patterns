@@ -1,5 +1,5 @@
 import java.util.*;
-public class halfDiamond {
+public class rightHalfDiamond {
     public static void main(String args[]){
         Scanner scan=new Scanner(System.in);
         printTheHalfDiamond(scan.nextInt());
